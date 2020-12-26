@@ -9,6 +9,7 @@ import { AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HTTP_INTERCEPTORS} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { DeviceWithContentComponent } from './device-with-content/device-with-content.component';
 // import { routingComponents} from './app-routing.module';
 
 
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     // routingComponents
     UserdataComponent,
-    CarousalComponent
+    CarousalComponent,
+    DeviceWithContentComponent
     
   ],
   imports: [
