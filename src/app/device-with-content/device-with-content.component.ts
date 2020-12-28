@@ -65,4 +65,5 @@ export class DeviceWithContentComponent implements OnInit {
   pauseTimer() {
     clearInterval(this.interval);
   }
+
 }

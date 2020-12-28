@@ -18,7 +18,6 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 // import { routingComponents} from './app-routing.module';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
