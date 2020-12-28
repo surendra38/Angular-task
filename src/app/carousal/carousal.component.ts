@@ -8,7 +8,6 @@ import {AfterViewInit,Component, OnInit, Renderer2 } from '@angular/core';
 export class CarousalComponent implements OnInit {
 
   description:string;
-  videoLink:any="https://www.youtube.com/embed/1icCS2O4ROA"
   constructor() { }
   
   ngOnInit(){}

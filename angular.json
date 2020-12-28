@@ -38,12 +38,19 @@
               "node_modules/animate.css/animate.css",
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
+<<<<<<< HEAD
           ],
           "scripts": [
             "node_modules/chart.js/dist/Chart.js",
             "node_modules/hammerjs/hammer.min.js",
             "node_modules/jquery/dist/jquery.min.js"
           ]
+=======
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
+>>>>>>> c26dce1b710e7eb0e7f4404ce97d9248c6006e1c
           },
           "configurations": {
             "production": {
@@ -136,6 +143,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Basic"
+    }
+  },
+  "defaultProject": "Basic",
+  "cli": {
+    "analytics": false
+  }
 }

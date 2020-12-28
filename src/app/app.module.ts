@@ -10,8 +10,12 @@ import { AppComponent } from './app.component';
 import {HTTP_INTERCEPTORS} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { DeviceWithContentComponent } from './device-with-content/device-with-content.component';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
+
+// import { routingComponents} from './app-routing.module';
 
 
 

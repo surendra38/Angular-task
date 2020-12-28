@@ -1,5 +1,7 @@
+
 import { Component, HostListener, OnInit } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap/carousel/carousel-config';
+
 
 @Component({
   selector: 'app-device-with-content',
@@ -18,24 +20,22 @@ export class DeviceWithContentComponent implements OnInit {
   interval;
 
   imgs: string[] = [
-    'assets/images/1.png',
-    'assets/images/2.png',
-    'assets/images/3.png',
-    'assets/images/4.png',
-    'assets/images/5.png',
-    'assets/images/6.png',
-    'assets/images/7.png'
-  ];
+
+    'assets/features_live_tracking.png',
+    'assets/features_anti_theft.png',
+    'assets/features_engine_lock.png',
+    'assets/features_stats.png',
+    'assets/features_safezone.png',
+    'assets/features_analytics.png'];
 
   logos: string[] = [
-    'assets/icons/Live track icon.png',
-    'assets/icons/alarm.png',
-    'assets/icons/Vehicle stats.png',
-    'assets/icons/Geofences.png',
-    'assets/icons/Notications icon.png',
-    'assets/icons/engine lock.png',
-    'assets/icons/stats.png'
-  ];
+    'assets/icons/ic_live_track.png',
+    'assets/icons/ic_anti_alarm.png',
+    'assets/icons/ic_engine_lock.png',
+    'assets/icons/ic_stats.png',
+    'assets/icons/ic_geofence.png',
+    'assets/icons/ic_analytics.png'];
+
 
   titles: string[] = ['Live GPS tracking with Playback history', 'Instant Anti Theft Alarm', 'Remote Engine Lock', 'Daily statistics', 'Safezone', 'Graphical Report'];
   descriptions: string[] = [
@@ -65,6 +65,4 @@ export class DeviceWithContentComponent implements OnInit {
   pauseTimer() {
     clearInterval(this.interval);
   }
-
-
 }
