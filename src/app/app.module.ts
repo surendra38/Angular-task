@@ -9,7 +9,10 @@ import { AppRoutingModule} from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HTTP_INTERCEPTORS} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-// import { routingComponents} from './app-routing.module';
+import { DeviceWithContentComponent } from './device-with-content/device-with-content.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
 
 
 @NgModule({
@@ -17,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     // routingComponents
     UserdataComponent,
-    CarousalComponent
+    CarousalComponent,
+    DeviceWithContentComponent
     
   ],
   imports: [
@@ -25,7 +29,9 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     CommonModule,
-    FormsModule
+    FormsModule,
+    NgbModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {AfterViewInit,Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-carousal',
@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarousalComponent implements OnInit {
 
+  description:string;
+  videoLink:any="https://www.youtube.com/embed/1icCS2O4ROA"
   constructor() { }
-
-  description=" With the Help of live car location tracker you can see each and every movement of your vehicle on mobile phone. You can see which routes your car has taken throughtout the day with all the stoppage.";
-  ngOnInit(): void {
-  }
+  
+  ngOnInit(){}
 
 }

@@ -1,172 +1,86 @@
 <div class="container-fluid">
-  <div id="Carousel" class="carousel slide " data-ride="carousel" data-interval="3000">
 
-    <!-- <ol class="carousel-indicators">
-      <li data-target="#Carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#Carousel" data-slide-to="1"></li>
-      <li data-target="#Carousel" data-slide-to="2"></li>
-    </ol> -->
-
-    <div class="carousel-inner">
-      <div class="item active">
-          <div class="row align-items-center">
-          <div class="col-md-6 py text-center">
-          <img src="assets/1.png" alt="firstSlide" width="300" height="500">
-        </div>
-        <div class="col-md-4">
-          <div class="text-center" style="padding:10px;">
-            <img src="assets/Live track icon.png" alt="Los Angeles" width="100" height="100">
-          </div>
-          <div class="text-center"style="margin-left:10%; margin-right:10%;">
-          <h5>Live GPS tracking with Driving History</h5>
-          <p>{{description}}</p>
-          </div>
-         </div>
-        </div>
-        </div>
-
-      <div class="item">
-        <div class="row align-items-center">
-        <div class="col-md-6 text-center">
-        <img src="assets/2.png" alt="Secondslide" width="300" height="500">
-      </div>
-      <div class="col-md-3">
-        <div class="text-center" style="padding:10px;">
-          <img src="assets/Live track icon.png" alt="track-icon" width="100" height="100">
-        </div>
-        <div class="text-center"style="margin-left:10%; margin-right:10%;">
-        <h5>Live GPS tracking with Driving History</h5>
-        <p>{{description}}</p>
-        </div>
-       </div>
-      </div>
-      </div>
-    
-      <div class="item">
-        <div class="row align-items-center">
-        <div class="col-md-6 text-center">
-        <img src="assets/3.png" alt="Chicago" width="300" height="500">
-      </div>
-      <div class="col-md-3">
-        <div class="text-center" style="padding:10px;">
-          <img src="assets/Live track icon.png" alt="thirdslide" width="100" height="100">
-        </div>
-        <div class="text-center"style="margin-left:10%; margin-right:10%;">
-        <h5>Live GPS tracking with Driving History</h5>
-        <p>{{description}}</p>
-        </div>
-       </div>
-      </div>
-    </div>
-    </div>
-  </div>
-  <hr>
-  <!--  why are clients love us -->
+  <!-- carousal -->
+  <app-device-with-content></app-device-with-content>
   
+
+  <!--  why are clients love us -->
   <div class="row">
     <div class="col-md-12 text-center" style="padding:10px">
-      <h1>What should Provided Onelab</h1>
+      <h2 class="text-responsive">Why our clients love us ?</h2>
     </div>
   </div>
   <div class="row">
-    <div  class="col-md-12 text-center">
-      
-      <div class="">
-        <iframe class="responsive-iframe"style="height:25vw; width: 50vw" src="https://www.youtube.com/embed/1icCS2O4ROA" allowfullscreen></iframe>
-      </div>
+    <div  class="col-sm-12 col-md-12 col-12 text-center">
+      <iframe class="responsive-iframe" style="height:25vw; width: 50vw" src="https://www.youtube.com/embed/1icCS2O4ROA" ></iframe>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12" style="margin:10px;">
-      <h5 class="text-center">{{description}}</h5>
+    <div class="col-sm-12 col-md-12 col-12 text-center" style="margin:10px;">
+      <p>
+        <mdb-icon fas icon="quote-left"></mdb-icon> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+        adipisci <mdb-icon fas icon="quote-right"></mdb-icon></p>
+      <!-- <h5 class="h-responsive text-center">{{description}}</h5> -->
+    </div>
+  </div>
 
-    </div>
-  </div>  
-  <!-- Media coverage -->
+  <!-- Media Coverage-->
   <div class="container">
-    <h2 class="text-center" style="padding: 10px;">Media coverage</h2>
-    <div id="myCarousal" class="carousel slide " data-ride="carousel" data-interval="3000">
-
+    <h2 class="col-md-12 text-center h-responsive" style="padding:10px;">Media Coverage </h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
       <ol class="carousel-indicators">
-        <li data-target="#myCarousal" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousal" data-slide-to="1"></li>
-        <li data-target="#myCarousal" data-slide-to="2"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
       </ol>
-
       <div class="carousel-inner">
-        <div class="item active">
-          <div class="row ">
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/BS.webp" alt="firstSlide" width="100" height="50"></a>
-            </div>
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/FPJ.webp" alt="SLos Angeles" width="100" height="50"></a>
-            </div>
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/zeebusiness.webp" alt="SLos Angeles" width="100" height="50"></a>
-            </div>
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/Silicon india.webp" alt="SLos Angeles" width="100" height="50"></a>
-            </div>
-          </div>
+        <div class="carousel-item active">
+         <img class="img-fluid" src="assets/2nd_carousal/BS.webp" class="w-25 p-3" alt="...">
+         <img class="img-fluid" src="assets/2nd_carousal/FPJ.webp" width="15%" alt="...">
+         <img class="img-fluid" src="assets/2nd_carousal/Silicon india.webp" class="w-25 p-3" alt="...">
+         <img class="img-fluid" src="assets/2nd_carousal/zeebusiness.webp" class="w-25 p-3" alt="...">
         </div>
-
-        <div class="item">
-          <div class="row ">
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/BS.webp" alt="firstSlide" width="100" height="50"></a>
-            </div>
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/FPJ.webp" alt="SLos Angeles" width="100" height="50"></a>
-            </div>
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/zeebusiness.webp" alt="SLos Angeles" width="100" height="50"></a>
-            </div>
-            <div class="col-sm-3 col-md-3 col-12">
-              <a href="#"><img src="assets/Assets/Assets/Silicon india.webp" alt="SLos Angeles" width="100" height="50"></a>
-            </div>
-
-          </div>
+        <div class="carousel-item">
+           <img src="assets/2nd_carousal/BS.webp" class="w-25 p-3" alt="...">
+           <img src="assets/2nd_carousal/FPJ.webp" width="15%" alt="...">
+           <img src="assets/2nd_carousal/Silicon india.webp" class="w-25 p-3" alt="...">
+           <img src="assets/2nd_carousal/zeebusiness.webp" class="w-25 p-3" alt="...">
         </div>
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#myCarousal" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+      </div><br><br>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#myCarousal" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
       </a>
     </div>
   </div>
+  
     
 
-    <!-- How to get Started -->
+  <!-- How to get Started -->
   <h2 class="text-center" style="padding:10px">How to get started ?</h2>
-  <div class="row text-center">
-    <div class="col-md-4 col-sm-4 col-12">
-      <img class="img-fluid rounded-circle" src="assets/Assets/Assets/Step 1.webp" alt="step1" width="100" height="100"> 
-      <h3 style="padding:2px;">Step 1</h3>
-      <h5> Buy OneLap GPS Tracker</h5>
+  <div class="row">
+    <div class="col-sm-4 col-md-4 col-4 text-center">
+      <img class="img-fluid rounded-circle " src="assets/steps/Step 1.webp"  alt="step1" >
+      
+      
+      <h4 style="padding:2px;">Step 1</h4>
+      <h6> Buy OneLap GPS Tracker</h6>
     </div>
-    <div class="col-md-4 col-sm-4 col-12">
-      <img class="img-fluid rounded-circle" src="assets/Assets/Assets/Step 2.webp" alt="step2" width="100" height="100">
-      <h3 style="padding:2px;">Step 2</h3> 
-      <h5>Install The Product</h5>
+    <div class="col-sm-4 col-md-4 col-4 text-center">
+      <img class="img-fluid rounded-circle" src="assets/steps/Step 2.webp" alt="step2" >
+      
+      <h4 style="padding:2px;">Step 2</h4> 
+      <h6>Install The Product</h6>
     </div>
-    <div class="col-md-4 col-sm-4 col-12">
-      <img class="img-fluid rounded-circle" src="assets/Assets/Assets/step 3.webp" alt="step3" width="100" height="100">
-      <h3 style="padding:2px;">Step 3</h3>
-      <h5>Activate Your Product</h5>
+    <div class="col-sm-4 col-md-4 col-4 text-center">
+      <img class="img-fluid rounded-circle" src="assets/steps/step 3.webp" alt="step3" >
+      
+      <h4 style="padding:2px;">Step 3</h4>
+      <h6>Activate Your Product</h6>
     </div>
-  </div>
- 
-  <!-- How Onelap Works-->
-  <h2 class="text-center" style="padding-top:2%;">How OneLap Works</h2>
-  <div class="col-md-12 col-sm-12 col-12">
-    <img class="img-fluid" src="assets/Assets/Micro flow chart.webp">
   </div>
 </div>
-
-
-
